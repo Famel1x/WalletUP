@@ -31,8 +31,8 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/mortgagecalculator-2.3-armeabi-v7a-debug.apk" --tag_name "v.2.3"
-  - echo "TODO COMPILE 64bit"
+  - dpl releases --token $WalletUP --file "bin/walletup-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
+  - echo "TODO"
   - ls -la
   - rm -r -f .buildozer
   - ls -la
